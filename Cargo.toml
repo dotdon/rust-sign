@@ -2,9 +2,11 @@
 name = "rust-sign"
 version = "0.1.0"
 edition = "2021"
+authors = ["dotdon"]
 description = "Document signing library using BLAKE3 hashing and Ed25519 signatures"
 license = "MIT"
-repository = "https://github.com/yourusername/rust-sign"
+repository = "https://github.com/dotdon/rust-sign"
+readme = "README.md"
 keywords = ["cryptography", "signing", "blake3", "ed25519", "signature"]
 categories = ["cryptography", "authentication"]
 
