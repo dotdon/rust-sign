@@ -1,0 +1,23 @@
+[package]
+name = "rust-sign"
+version = "0.1.0"
+edition = "2021"
+description = "Document signing library using BLAKE3 hashing and Ed25519 signatures"
+license = "MIT"
+repository = "https://github.com/yourusername/rust-sign"
+keywords = ["cryptography", "signing", "blake3", "ed25519", "signature"]
+categories = ["cryptography", "authentication"]
+
+[dependencies]
+blake3 = "1.5"
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+base64 = "0.22"
+thiserror = "1.0"
+
+[dev-dependencies]
+tempfile = "3.10"
+

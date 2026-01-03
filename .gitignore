@@ -1,0 +1,21 @@
+# Build artifacts
+/target/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Private key files - never commit these!
+*.pem
+
+# Backup files
+*.bak
+*.orig
+
